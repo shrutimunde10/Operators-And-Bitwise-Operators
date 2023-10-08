@@ -1,0 +1,18 @@
+/*
+PRN: 22070123116
+Experiment no: 4(a)
+*/
+
+#include <iostream>
+using namespace std;
+int main(){
+    int i= 67, j,set,reset;
+    set = (67|8); // | --> Bitwise OR --> 0|1 = 1 --> Set means to convert 0 to 1 Bitwise OR
+    reset= (67&191); // & --> Bitwise AND --> 0&1 = 0 , 1&1 = 1 --> Reset means to convert 1 to 0, using Bitwise AND
+    cout<<"Value of set is: "<<set<<endl<<"Value of set is: "<<reset;
+    return 0;
+}
+/* OUTPUT
+Value of set is: 75
+Value of set is: 3
+*/
