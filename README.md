@@ -1,4 +1,5 @@
 # Operators-And-Bitwise-Operators
+Theory:
 Bitwise operators in C++ carry out operations on integer data at the bit-level. Testing, setting, or shifting the actual bits is one of these processes.
 
 Operator	Description
